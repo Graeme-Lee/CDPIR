@@ -1,4 +1,7 @@
 # Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse View CT(CDPIR)
+![Model Architecture](figure_architecture.JPG)
+![Figure1](figure1.jpg)
+
 Official code for TMI paper 
 
 [Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT](https://arxiv.org/pdf/2509.13576)
