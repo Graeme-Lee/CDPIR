@@ -24,6 +24,10 @@ We present Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction (
 ## 🚀 Get Started
 
 1. **Setup the environment of CDPIR:** We provide an environment.yml file that can be used to create a Conda environment.
+```
+conda env create -f environment.yml
+conda activate SiT
+```
 2. **Setup the environment of LEAP:** Install the [LEAP](https://github.com/LLNL/LEAP) projector library. We use [manual](https://github.com/llnl/LEAP/blob/main/manual_install.py) installing based on the [pre-complied files](https://github.com/LLNL/LEAP/wiki/Using-the-LEAP-precompiled-dynamic-libraries). 
 3. **Download assets:** Download the pre-trained ckpts, the test XCAT CT slices, and the GE projections.
 
