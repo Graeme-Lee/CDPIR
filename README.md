@@ -24,7 +24,7 @@ We present Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction (
 ## 🚀 Get Started
 
 1. **Setup the environment of SiT:** Follow the standard installation process for the SiT environment.
-2. **Setup the environment of LEAP:** Install the LEAP projector library.
+2. **Setup the environment of LEAP:** Install the [LEAP](https://github.com/LLNL/LEAP) projector library.
 3. **Download assets:** Download the pre-trained ckpts, the test XCAT CT slices, and the GE projections.
 
 > **Note:** By default, the above scripts place the pre-trained model checkpoints under the `pretrained/` folder, and the sample data under the `data/` folder.
