@@ -39,3 +39,15 @@ Once you have the pre-trained weights and the test data set up properly, you may
 
 ```bash
 python sample.py RECON
+```
+## ⚙️ CDPIR Training
+The training is based on the DiT training
+
+## ⚙️ Citation
+If you find our paper helpful, please kindly cite our paper in your publications.
+
+
+
+
+
+
