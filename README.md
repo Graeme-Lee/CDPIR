@@ -38,7 +38,7 @@ conda activate cdpir
 Once you have the pre-trained weights and the test data set up properly, you may run the following scripts. Modify the parameters in the python scripts directly to change experimental settings.
 
 ```bash
-python sample.py SDE 
+python sample_simulation.py SDE 
 ```
 
 ## ⚙️ CDPIR Training
