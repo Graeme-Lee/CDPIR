@@ -42,6 +42,7 @@ Once you have the pre-trained weights and the test data set up properly, you may
 ```bash
 python sample_simulation.py SDE 
 ```
+For the raw injection input, you can replace the simulation input projection with a raw projection in the code. 
 
 ## ⚙️ CDPIR Training
 The training is based on the DiT training. And you can use ODE sampler to test if your training is enough or not.
