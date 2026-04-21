@@ -9,10 +9,10 @@ This repo contains PyTorch model definitions, pre-trained weights, and training/
 > University of Massachusetts
 
 <p align="center">
-  <img src="figure_architecture.JPG" width="800" alt="CDPIR Model Architecture">
+  <img src="figures/figure_architecture.JPG" width="800" alt="CDPIR Model Architecture">
 </p>
 <p align="center">
-  <img src="attention.png" width="800" alt="Attention Visualization">
+  <img src="figures/attention.png" width="800" alt="Attention Visualization">
 </p>
 
 We present Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction (CDPIR) to tackle out-of-distribution (OOD) challenges in Sparse-View CT (SVCT). CDPIR integrates cross-distribution diffusion priors, derived from a Scalable Interpolant Transformer (SiT) backbone, with model-based iterative reconstruction. By establishing a unified stochastic interpolant framework and leveraging Classifier-Free Guidance (CFG), our model learns a highly transferable prior that preserves domain-invariant anatomical structures while allowing domain-specific appearance modulations. By alternating between data fidelity and sampling updates, CDPIR achieves state-of-the-art detail preservation and robustness, significantly outperforming existing approaches in challenging OOD scenarios. 
