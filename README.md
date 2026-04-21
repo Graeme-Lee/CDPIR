@@ -38,15 +38,27 @@ conda activate cdpir
 Once you have the pre-trained weights and the test data set up properly, you may run the following scripts. Modify the parameters in the python scripts directly to change experimental settings.
 
 ```bash
-python sample.py RECON
+python sample.py SDE 
 ```
+
 ## ⚙️ CDPIR Training
-The training is based on the DiT training
-
-## ⚙️ Citation
+The training is based on the DiT training. And you can use ODE sampler to test if your training is enough or not.
+```bash
+python  train.py --model SiT-B/2 --data-path /path/to/imagenet/train
+```
+## 📑 Citation
 If you find our paper helpful, please kindly cite our paper in your publications.
-
-
+```bash
+@misc{li2025crossdistributiondiffusionpriorsdriveniterative,
+      title={Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT}, 
+      author={Haodong Li and Shuo Han and Haiyang Mao and Yu Shi and Changsheng Fang and Jianjia Zhang and Weiwen Wu and Hengyong Yu},
+      year={2025},
+      eprint={2509.13576},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2509.13576}, 
+}
+```
 
 
 
