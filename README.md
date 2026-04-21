@@ -30,7 +30,9 @@ conda activate cdpir
 ```
 2. **Setup the environment of LEAP:** Install the [LEAP](https://github.com/LLNL/LEAP) projector library. We use [manual](https://github.com/llnl/LEAP/blob/main/manual_install.py) installing based on the [pre-complied files](https://github.com/LLNL/LEAP/wiki/Using-the-LEAP-precompiled-dynamic-libraries). 
 3. **Download assets:** Download the pre-trained ckpts, the test XCAT CT slices, and the GE projections.
-
+```
+bash download.sh
+```
 > **Note:** By default, the above scripts place the pre-trained model checkpoints under the `pretrained/` folder, and the sample data under the `data/` folder.
 
 ## ⚙️ CDPIR Reconstruction
