@@ -12,7 +12,7 @@ from diffusers.models import AutoencoderKL
 from download import find_model
 from models import SiT_models
 from train_utils import parse_ode_args, parse_sde_args, parse_transport_args
-from transport_CFG import create_transport, Sampler
+from transport_folder import create_transport, Sampler
 import argparse
 import sys
 from time import time
