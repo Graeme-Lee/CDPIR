@@ -1,6 +1,6 @@
 # Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT (CDPIR)
 
-This repo contains PyTorch model definitions, pre-trained weights, and training/sampling code for our paper exploring Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT (CDPIR).
+This repo contains PyTorch model definitions, pre-trained weights, and training/sampling code for our TMI paper exploring Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT (CDPIR).
 
 > [**Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT**](https://arxiv.org/pdf/2509.13576)
 > 
