@@ -38,7 +38,7 @@ conda activate cdpir
 Once you have the pre-trained weights and the test data set up properly, you may run the following scripts. Modify the parameters in the python scripts directly to change experimental settings.
 
 ```bash
-python sample_simulation.py SDE 
+python sample.py SDE 
 ```
 For the raw injection input, you can replace the simulation input projection with a raw projection in the code. 
 
