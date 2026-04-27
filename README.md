@@ -47,7 +47,7 @@ After preparing the pretrained weights and test data, you can run reconstruction
 ```bash
 python sample.py SDE 
 ```
-To change the experimental settings, modify the parameters directly in the Python scripts. You can use metrics.py to estimate the reconstruction results.
+To change the experimental settings, modify the parameters directly in the Python scripts. The metrics.py is an example to estimate the reconstruction results.
 
 For raw-injection input, you can replace the simulated input projection with raw projection data in the code.
 
