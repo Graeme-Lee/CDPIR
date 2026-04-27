@@ -38,7 +38,7 @@ conda activate cdpir
 2. **Setup the environment of LEAP:** Install the [LEAP](https://github.com/LLNL/LEAP) projector library. We use [manual](https://github.com/llnl/LEAP/blob/main/manual_install.py) installing based on the [pre-complied files](https://github.com/LLNL/LEAP/wiki/Using-the-LEAP-precompiled-dynamic-libraries). 
 3. **Download assets:** Download the [pre-trained ckpt](https://huggingface.co/Hd9955/CDPIR/blob/main/0200000.pt).
 
-> **Note:** By default, the AAPM label is 0, and COCA label is 1 in this pre-trained ckpt file.
+> **Note:** In the provided pretrained checkpoint, the AAPM label is set to '''0''', and the COCA label is set to '''1'''.
 
 ## ⚙️ 2D Simulation Reconstruction
 
