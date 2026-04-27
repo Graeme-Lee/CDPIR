@@ -88,7 +88,7 @@ class sde:
         image_size=256,
         save_npy=0,
         allowed_suffixes=".mat,.npy",
-        use_dc=0,
+        
         use_cg=1,
         use_asd_pocs=1,
         cg_inner=10,
@@ -98,7 +98,7 @@ class sde:
         **model_kwargs,
     ):
         """Forward loop of SDE for batch CT reconstruction over a folder."""
-        use_dc = int(use_dc)
+       
         use_cg = int(use_cg)
         use_asd_pocs = int(use_asd_pocs)
 
@@ -154,7 +154,7 @@ class sde:
                 with th.no_grad():
                     x, mean_x = sampler(x, mean_x, ti, model, **model_kwargs)
 
-                    if int(use_dc) == 1 and (int(use_cg) == 1 or int(use_asd_pocs) == 1):
+                    if  (int(use_cg) == 1 or int(use_asd_pocs) == 1):
                         x_t = mean_x.squeeze(0)
                         x_t = ct_rec.apply_data_consistency(
                             x_t,
@@ -440,7 +440,6 @@ class Sampler:
         diffusion_form="SBDM",
         diffusion_norm=1.0,
         num_steps=250,
-        use_dc=0,
         use_cg=1,
         use_asd_pocs=1,
         cg_inner=10,
@@ -525,7 +524,6 @@ class Sampler:
                 image_size=image_size,
                 save_npy=save_npy,
                 allowed_suffixes=allowed_suffixes,
-                use_dc=use_dc,
                 use_cg=use_cg,
                 use_asd_pocs=use_asd_pocs,
                 cg_inner=cg_inner,

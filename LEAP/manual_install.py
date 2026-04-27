@@ -16,8 +16,8 @@ from sys import platform as _platform
 
 if _platform == "linux" or _platform == "linux2":
     fname_list = ['libleapct.so']
-    dst_folder = site.getsitepackages()[0]
-    # dst_folder = site.getusersitepackages()
+    # dst_folder = site.getsitepackages()[0]
+    dst_folder = site.getusersitepackages()
     
 elif _platform == "win32":
     fname_list = ['libleapct.dll']
