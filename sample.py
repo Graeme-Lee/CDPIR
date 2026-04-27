@@ -363,12 +363,6 @@ if __name__ == "__main__":
         default=None,
         help="Null/unconditional class label used by CFG. Defaults to --num-classes.",
     )
-    parser.add_argument(
-        "--ode-output",
-        type=str,
-        default="sample.png",
-        help="Output file path for images sampled in ODE mode.",
-    )
 
     args = parser.parse_known_args()[0]
     main(mode, args)

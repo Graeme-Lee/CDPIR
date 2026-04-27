@@ -129,9 +129,9 @@ def calculate_metrics_for_folders(folder1_path, folder2_path, output_file_path):
 
 
 
-folder1_path = r'D:\CT_rec\SiT\AAPM_AAPM_mat\ori' # Path to the first set of images (e.g., reconstructed)
-folder2_path = r'D:\CT_rec\SiT\AAPM_AAPM_mat\rec' # Path to the second set of images (e.g., original/ground truth)
-output_file = r'D:\CT_rec\SiT\AAPM_AAPM_mat\comparison_results.txt' # Path to save the results
+folder1_path = r'LOCATION/OF/YOUR/FIRST/IMAGE/DIRECTORY' # Path to the first set of images (e.g., reconstructed)
+folder2_path = r'LOCATION/OF/YOUR/SECOND/IMAGE/DIRECTORY' # Path to the second set of images (e.g., original/ground truth)
+output_file = r'LOCATION/OF/YOUR/OUTPUT/FILE.txt' # Path to save the results
 
 # Ensure output directory exists if it's nested
 output_dir = os.path.dirname(output_file)
