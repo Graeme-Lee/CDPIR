@@ -29,9 +29,9 @@ conda env create -f environment.yml
 conda activate cdpir
 ```
 2. **Setup the environment of LEAP:** Install the [LEAP](https://github.com/LLNL/LEAP) projector library. We use [manual](https://github.com/llnl/LEAP/blob/main/manual_install.py) installing based on the [pre-complied files](https://github.com/LLNL/LEAP/wiki/Using-the-LEAP-precompiled-dynamic-libraries). 
-3. **Download assets:** Download the [pre-trained ckpts](https://huggingface.co/Hd9955/CDPIR/blob/main/0200000.pt).
+3. **Download assets:** Download the [pre-trained ckpt](https://huggingface.co/Hd9955/CDPIR/blob/main/0200000.pt).
 
-> **Note:** By default, the above scripts place the pre-trained model checkpoints under the `pretrained/` folder, and the sample data under the `data/` folder.
+> **Note:** By default, the AAPM label is 0, and COCA label is 1 in this pre-trained ckpt file.
 
 ## ⚙️ 2D Simulation Reconstruction
 
