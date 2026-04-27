@@ -29,7 +29,7 @@ conda env create -f environment.yml
 conda activate cdpir
 ```
 2. **Setup the environment of LEAP:** Install the [LEAP](https://github.com/LLNL/LEAP) projector library. We use [manual](https://github.com/llnl/LEAP/blob/main/manual_install.py) installing based on the [pre-complied files](https://github.com/LLNL/LEAP/wiki/Using-the-LEAP-precompiled-dynamic-libraries). 
-3. **Download assets:** Download the pre-trained ckpts, the test XCAT CT slices, and the GE projections.
+3. **Download assets:** Download the pre-trained ckpts.
 ```
 bash download.sh
 ```
