@@ -47,7 +47,7 @@ After preparing the pretrained weights and test data, you can run reconstruction
 ```bash
 python sample.py SDE 
 ```
-To change the experimental settings, modify the parameters directly in the Python scripts.
+To change the experimental settings, modify the parameters directly in the Python scripts. You can use metrics.py to estimate the reconstruction results.
 
 For raw-injection input, you can replace the simulated input projection with raw projection data in the code.
 
@@ -56,6 +56,7 @@ The training is based on the [DiT](https://github.com/facebookresearch/dit) trai
 ```bash
 python  train.py --model SiT-B/2 --data-path /path/to/imagenet/train
 ```
+
 ## 📑 Citation
 If you find our paper helpful, please kindly cite our paper in your publications.
 ```bash
