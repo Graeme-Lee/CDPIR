@@ -33,7 +33,7 @@ conda activate cdpir
 
 > **Note:** By default, the above scripts place the pre-trained model checkpoints under the `pretrained/` folder, and the sample data under the `data/` folder.
 
-## ⚙️ CDPIR Reconstruction
+## ⚙️ 2D Simulation Reconstruction
 
 Once you have the pre-trained weights and the test data set up properly, you may run the following scripts. Modify the parameters in the python scripts directly to change experimental settings.
 
