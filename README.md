@@ -60,14 +60,16 @@ python  train.py --model SiT-B/2 --data-path /path/to/imagenet/train
 ## 📑 Citation
 If you find our paper helpful, please kindly cite our paper in your publications.
 ```bash
-@misc{li2025crossdistributiondiffusionpriorsdriveniterative,
-      title={Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT}, 
-      author={Haodong Li and Shuo Han and Haiyang Mao and Yu Shi and Changsheng Fang and Jianjia Zhang and Weiwen Wu and Hengyong Yu},
-      year={2025},
-      eprint={2509.13576},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2509.13576}, 
+@ARTICLE{11494143,
+  author={Li, Haodong and Han, Shuo and Mao, Haiyang and Shi, Yu and Fang, Changsheng and Zhang, Jianjia and Wu, Weiwen and Yu, Hengyong},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={MIMICs;Millimeter wave integrated circuits;Monolithic integrated circuits;Oscillators;Modulation;Communications technology;Protocols;LoRa;TV;Electronic mail;Cross-distribution diffusion priors;sparse-view projection;out-of-distribution problem;computed tomography},
+  doi={10.1109/TMI.2026.3687173}}
 }
 ```
 
